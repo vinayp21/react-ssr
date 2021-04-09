@@ -2,6 +2,8 @@ const path = require("path");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
   .BundleAnalyzerPlugin;
 var HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
 module.exports = {
   entry: {
     home: "./src/index.js"
@@ -28,14 +30,15 @@ module.exports = {
         use: ["babel-loader"]
       },
       {
-        test: /\.s[ac]ss$/i,
+        test: /\.css$/i,
         use: [
+          MiniCssExtractPlugin.loader,
           // Creates `style` nodes from JS strings
-          "style-loader",
+          // "style-loader",
           // Translates CSS into CommonJS
-          "css-loader",
+          "css-loader"
           // Compiles Sass to CSS
-          "sass-loader"
+          // "sass-loader"
         ]
       },
       {
@@ -48,16 +51,17 @@ module.exports = {
       }
     ]
   },
-  optimization: {
-    splitChunks: {
-      chunks: "all"
-    }
-  },
+  // optimization: {
+  //   splitChunks: {
+  //     chunks: "all"
+  //   }
+  // },
   plugins: [
     new BundleAnalyzerPlugin(),
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: "./index.html"
-    })
+    }),
+    new MiniCssExtractPlugin()
   ]
 };

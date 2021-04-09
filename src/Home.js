@@ -1,14 +1,18 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-// import lodash from "lodash";
-import img from "./images/img.jpg";
+// import random from "lodash/random";
+
+import Header from "./Header";
+import List from "./List";
+
+import "./styles.css";
 
 const Home = () => {
   return (
     <div>
-      Home123
-      <img src={img} />
-      {/* <Link to="/Contact">to Contact</Link> */}
+      {/* {random()} */}
+      <Header />
+      <List />
     </div>
   );
 };

@@ -22,8 +22,19 @@ module.exports = {
         }
       },
       {
-        test: /\.(jpg|png|gif|svg|ico)$/i,
+        test: /\.(jpg|jpeg|png|gif|svg|ico)$/i,
         use: "url-loader?limit=8192"
+      },
+      {
+        test: /\.css$/i,
+        use: [
+          // Creates `style` nodes from JS strings
+          "file-loader",
+          // Translates CSS into CommonJS
+          "css-loader"
+          // Compiles Sass to CSS
+          // "sass-loader"
+        ]
       }
     ]
   }

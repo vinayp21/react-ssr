@@ -2,8 +2,8 @@ import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import { createBrowserHistory } from "history";
 import Home from "./Home";
-// import Contact from "./Contact";
-const Contact = lazy(() => import("./Contact"));
+// import Register from "./Register";
+const Register = lazy(() => import("./Register"));
 
 // export const history = createBrowserHistory();
 
@@ -13,7 +13,7 @@ const Routes = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/register" component={Register} />
         </Switch>
       </Suspense>
     </Router>
