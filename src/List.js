@@ -181,8 +181,8 @@ const List = () => {
 
           <div class="blog__center">
             <div class="blog__box">
-              <div class="img__cover blog-12">
-                <img className="" src={blog1} alt="" />
+              <div class="img__cover blog-1">
+                {/* <img className="" src={blog1} alt="" /> */}
               </div>
               <div class="box__content">
                 <h2>Here are the trends I see coming this fall</h2>
@@ -190,9 +190,9 @@ const List = () => {
               </div>
             </div>
 
-            <div class="blog__box blog-22">
+            <div class="blog__box blog-2">
               <div class="img__cover">
-                <img className="" src={blog2} alt="" />
+                {/* <img className="" src={blog2} alt="" /> */}
               </div>
               <div class="box__content">
                 <h2>Here are the trends I see coming this fall</h2>
@@ -200,9 +200,9 @@ const List = () => {
               </div>
             </div>
 
-            <div class="blog__box blog-32">
+            <div class="blog__box blog-3">
               <div class="img__cover">
-                <img className="" src={blog3} alt="" />
+                {/* <img className="" src={blog3} alt="" /> */}
               </div>
               <div class="box__content">
                 <h2>Here are the trends I see coming this fall</h2>
