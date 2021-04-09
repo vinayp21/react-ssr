@@ -13,7 +13,7 @@ import img11 from "./images/pic11.png";
 import blog1 from "./images/blog1.jpeg";
 import blog2 from "./images/blog2.jpeg";
 import blog3 from "./images/blog3.jpeg";
-import LazyLoad from "react-lazyLoad";
+// import LazyLoad from "react-lazyLoad";
 import Footer from "./Footer";
 
 const List = () => {
