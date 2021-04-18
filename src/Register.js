@@ -1,10 +1,12 @@
 import React from "react";
 import Header from "./Header";
+import random from "lodash/random";
+
 const Register = () => {
   return (
     <>
       <Header />
-
+      {random()}
       <form action="/action_page.php">
         <div class="reg-container">
           <h1>Register</h1>
