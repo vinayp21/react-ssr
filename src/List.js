@@ -13,7 +13,7 @@ import img11 from "./images/pic11.png";
 import blog1 from "./images/blog1.jpeg";
 import blog2 from "./images/blog2.jpeg";
 import blog3 from "./images/blog3.jpeg";
-// import LazyLoad from "react-lazyLoad";
+import LazyLoad from "react-lazyLoad";
 import Footer from "./Footer";
 
 const List = () => {
@@ -30,7 +30,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img10} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img10} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -41,7 +43,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img2} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img2} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -52,7 +56,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img3} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img3} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -63,7 +69,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img4} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img4} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -85,7 +93,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img6} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img6} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -96,7 +106,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img1} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img1} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -107,7 +119,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img11} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img11} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -118,7 +132,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img7} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img7} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -129,7 +145,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img8} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img8} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -140,7 +158,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img9} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img9} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -151,7 +171,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img5} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img5} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -162,7 +184,9 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img6} alt="" />
+                    <LazyLoad>
+                      <img className="" src={img6} alt="" />
+                    </LazyLoad>
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -182,7 +206,9 @@ const List = () => {
           <div class="blog__center">
             <div class="blog__box">
               <div class="img__cover blog-12">
-                <img className="" src={blog1} alt="" />
+                <LazyLoad>
+                  <img className="" src={blog1} alt="" />
+                </LazyLoad>
               </div>
               <div class="box__content">
                 <h2>Here are the trends I see coming this fall</h2>
@@ -192,7 +218,9 @@ const List = () => {
 
             <div class="blog__box blog-22">
               <div class="img__cover">
-                <img className="" src={blog2} alt="" />
+                <LazyLoad>
+                  <img className="" src={blog2} alt="" />
+                </LazyLoad>
               </div>
               <div class="box__content">
                 <h2>Here are the trends I see coming this fall</h2>
@@ -202,7 +230,9 @@ const List = () => {
 
             <div class="blog__box blog-32">
               <div class="img__cover">
-                <img className="" src={blog3} alt="" />
+                <LazyLoad>
+                  <img className="" src={blog3} alt="" />
+                </LazyLoad>
               </div>
               <div class="box__content">
                 <h2>Here are the trends I see coming this fall</h2>
