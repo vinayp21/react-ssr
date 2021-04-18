@@ -36,7 +36,7 @@ const Header = () => {
               </div>
               <ul class="nav__list">
                 <li class="nav__item">
-                  <a href="#header" class="nav__link scroll-link">
+                  <a href="/home" class="nav__link scroll-link">
                     Home
                   </a>
                 </li>
@@ -66,7 +66,7 @@ const Header = () => {
                 </li>
 
                 <li class="nav__item">
-                  <a href="#" class="nav__link">
+                  <a href="/register" class="nav__link">
                     Register
                   </a>
                 </li>

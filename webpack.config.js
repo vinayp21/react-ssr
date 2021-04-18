@@ -7,10 +7,11 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   entry: {
     home: "./src/index.js"
+    // register: "./src/register.js"
   },
   output: {
     path: path.resolve(__dirname, "server/dist"),
-    filename: "[name].js"
+    filename: "[name].bundle.js"
   },
   mode: "development",
   devServer: {
@@ -51,11 +52,11 @@ module.exports = {
       }
     ]
   },
-  // optimization: {
-  //   splitChunks: {
-  //     chunks: "all"
-  //   }
-  // },
+  optimization: {
+    splitChunks: {
+      chunks: "all"
+    }
+  },
   plugins: [
     new BundleAnalyzerPlugin(),
     new HtmlWebpackPlugin({
