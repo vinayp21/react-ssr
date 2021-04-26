@@ -2,7 +2,6 @@ const React = require("react");
 const express = require("express");
 const path = require("path");
 var ReactDOMServer = require("react-dom/server");
-import { StaticRouter } from "react-router-dom";
 const fs = require("fs");
 import Home from "../src/Home.js";
 import Routes from "../src/routes.js";
@@ -30,11 +29,7 @@ app.use(express.static("./dist"));
 app.get("/*", (req, res) => {
   console.log(req.url);
   const context = {};
-  const app = ReactDOMServer.renderToString(
-    <StaticRouter location={req.url} context={context}>
-      <Home />
-    </StaticRouter>
-  );
+  const app = ReactDOMServer.renderToString(<Routes loc={req.url} />);
   const indexFile = path.resolve("./dist/index.html");
   fs.readFile(indexFile, "utf8", (err, data) => {
     if (err) {

@@ -31,11 +31,11 @@ const List = () => {
                 <div class="rating">
                   <span>
                     <LazyLoad>
-                      <img className="" src={img10} alt="" />
+                      <img className="img1" src={img10} alt="" />
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -48,7 +48,7 @@ const List = () => {
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -61,7 +61,7 @@ const List = () => {
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -74,7 +74,7 @@ const List = () => {
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -98,7 +98,7 @@ const List = () => {
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -111,7 +111,7 @@ const List = () => {
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -124,7 +124,7 @@ const List = () => {
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -137,7 +137,7 @@ const List = () => {
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -150,7 +150,7 @@ const List = () => {
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -163,7 +163,7 @@ const List = () => {
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -176,7 +176,7 @@ const List = () => {
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -185,11 +185,11 @@ const List = () => {
                 <div class="rating">
                   <span>
                     <LazyLoad>
-                      <img className="" src={img6} alt="" />
+                      <img className="img1" src={img6} alt="" />
                     </LazyLoad>
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
