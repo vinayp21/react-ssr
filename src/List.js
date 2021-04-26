@@ -30,7 +30,7 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img10} alt="" />
+                    <img className="img1" src={img10} alt="" />
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>
@@ -162,7 +162,7 @@ const List = () => {
               <div class="product__bottom">
                 <div class="rating">
                   <span>
-                    <img className="" src={img6} alt="" />
+                    <img className="img1" src={img6} alt="" />
                   </span>
                 </div>
                 <h3>Polar Skate Co Devil T Shirt</h3>

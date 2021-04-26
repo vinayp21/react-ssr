@@ -17,19 +17,23 @@ const Routes = ({ loc }) => {
   if (loc) {
     return (
       <StaticRouter location={loc}>
-        <Switch>
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/register" component={Register} />
-        </Switch>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Switch>
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/register" component={Register} />
+          </Switch>
+        </Suspense>
       </StaticRouter>
     );
   }
   return (
     <Router>
-      <Switch>
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/register" component={Register} />
-      </Switch>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Switch>
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/register" component={Register} />
+        </Switch>
+      </Suspense>
     </Router>
   );
 };
