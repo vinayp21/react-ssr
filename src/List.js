@@ -33,7 +33,7 @@ const List = () => {
                     <img className="img1" src={img10} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -44,7 +44,7 @@ const List = () => {
                     <img className="" src={img2} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -55,7 +55,7 @@ const List = () => {
                     <img className="" src={img3} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -66,7 +66,7 @@ const List = () => {
                     <img className="" src={img4} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -88,7 +88,7 @@ const List = () => {
                     <img className="" src={img6} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -99,7 +99,7 @@ const List = () => {
                     <img className="" src={img1} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -110,7 +110,7 @@ const List = () => {
                     <img className="" src={img11} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -121,7 +121,7 @@ const List = () => {
                     <img className="" src={img7} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -132,7 +132,7 @@ const List = () => {
                     <img className="" src={img8} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -143,7 +143,7 @@ const List = () => {
                     <img className="" src={img9} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -154,7 +154,7 @@ const List = () => {
                     <img className="" src={img5} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
@@ -165,7 +165,7 @@ const List = () => {
                     <img className="img1" src={img6} alt="" />
                   </span>
                 </div>
-                <h3>Polar Skate Co Devil T Shirt</h3>
+                <h3>Men's solid Jackets</h3>
                 <a href="#">Add To Cart</a>
               </div>
             </div>
