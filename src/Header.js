@@ -89,7 +89,7 @@ const Header = () => {
                   {/* <svg>
                   <use xlink:href="./images/sprite.svg#icon-shopping-basket"></use>
                 </svg> */}
-                  <span>2</span>
+                  <span></span>
                 </a>
               </ul>
             </div>

@@ -6,7 +6,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: {
-    home: "./src/index.js"
+    home: "./src/index.js",
+    register: "./src/Register.js"
   },
   output: {
     path: path.resolve(__dirname, "server/dist"),

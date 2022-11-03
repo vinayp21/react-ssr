@@ -17,6 +17,33 @@
   width: 600px;
   margin: 0 auto;
 }
+.box {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roww {
+  display: flex;
+  flex-direction: row;
+}
+.sprite {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: green;
+}
+.player {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: red;
+  position: absolute;
+}
 .img1 {
   width: 83%;
 }
